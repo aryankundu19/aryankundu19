@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-
+awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>Aryan Kundu's Website</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='education.html'>Education</a></li>
+        <li><a href='projects.html'>Projects</a></li>
+        <li><a href='contact.html'>Contact Me</a></li>
+      </ul>
+    </nav>
+
+    
+    <div class="imgcontainer">
+      <div id="contacthero">
+        <div class="centered">
+          <h1>Contact Me</h1>
+
+          
+        </div>
+      </div>
+    </div>
+
+    
+ <main>
+  <section id="contact">
+    <h1>Contact Me: </h1>
+    <h3 align="center">All the * fields are required</h3>
+    <form method="POST">
+      <!-- First name  -->
+      <label for="fname">*First Name:</label>
+      <input type="text" name="fname" id="fname" required>
+
+      <!-- Last name -->
+      <label for='lname'>*Last Name:</label>
+      <input type="text" name="lname" id="lname" required>
+
+      <!-- Email address -->
+      <label for="email">*Email Address:</label>
+      <input type="email" name="email" id="email" required>
+
+      <!-- Phone number -->
+      <label for="phone">Phone Number:</label>
+      <input type="tel" name="phone" id="phone">
+
+      <!-- Subject dropdown options -->
+      <label for="subject">*Subject:</label>
+      <select name="subject" id="subject" required>
+        <option value="General Inquiry">General Inquiry</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Support">Support</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <!-- Message/comment -->
+      <label for="message">*Message/Comments:</label>
+      <textarea rows="5" cols="20" name="message" required></textarea>
+
+      <!-- Preferred contact method (radio button) -->
+      <label>*Preferred Contact Method:</label>
+      <div class="form-container">
+        <input type="radio" id="contact_email" name="contact_method" value="email" required>
+        <label for="contact_email">Email</label>
+        <input type="radio" id="contact_phone" name="contact_method" value="phone" required>
+        <label for="contact_phone">Phone</label>
+      </div>
+
+      <!-- buttons in the same row -->
+      <div class="button-container">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Cancel">
+      </div>
+    </form>
+  </section>
+</main>
+
+        <!-- add a form later  -->
+      </section>
+    </main>
+    <footer align='center'>
+      <p><i><small>Copyright &copy; Aryan Kundu<br>
+            <a href="mailto:akundu10@asu.edu" style="color: white;">akundu10@asu.edu</a>
+<br>
+                  </small></i></p>
+      <div class="socialMediaLinks">
+      <small><i><a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
+<a href="https://www.facebook.com/aryan.kundu.39794" class="fa fa-facebook-f" target="_blank"></a>
+<a href="https://github.io" class="fa fa-brand fa-github" target="_blank"></a>
+<a href="hhttps://www.instagram.com/aryan.kunduu/" class="fa fa-instagram" target="_blank"></a>
+<a href="https://www.linkedin.com/in/aryankundu/" class="fa fa-linkedin" target="_blank">
+</a></i></small>
+      </div>
+
+    </footer>
+  </div>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
